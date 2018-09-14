@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './components/home/home.component';
+import { SharedComponent } from './components/shared/shared.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule
